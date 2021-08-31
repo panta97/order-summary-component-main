@@ -87,7 +87,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: var(--pale-blue);
-    background-image: url(./images/pattern-background-mobile.svg);
+    background-image: url("/images/pattern-background-mobile.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 50%;
@@ -108,7 +108,7 @@ body {
 .banner {
     height: 220px;
     background-color: white;
-    background-image: url(/images/illustration-hero.svg);
+    background-image: url("/images/illustration-hero.svg");
 }
 
 .details {
@@ -178,7 +178,7 @@ body {
 
 @media screen and (min-width: 500px) {
     body {
-        background-image: url(/images/pattern-background-desktop.svg);
+        background-image: url("/images/pattern-background-desktop.svg");
     }
 
     .container {
